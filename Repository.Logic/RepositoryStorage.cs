@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
-using TIRepository.API;
+using TI.Repository.API;
 
-namespace TIRepository
+namespace TI.Repository
 {
     public abstract class RepositoryStorage<T, TStorage> : IRepository<T> 
         where TStorage : ICollection<T>, new()

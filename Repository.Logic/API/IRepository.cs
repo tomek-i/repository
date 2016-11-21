@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace TIRepository.API
+namespace TI.Repository.API
 {
     public interface IRepository<T>:IDisposable
     {
