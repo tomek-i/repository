@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using TIRepository.API;
+using TI.Repository.API;
 
-namespace TIRepository
+namespace TI.Repository
 {
 
 

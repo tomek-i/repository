@@ -7,7 +7,7 @@
     <ProjectGuid>{43529532-F42D-48A9-A342-595E6E1AD3F9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TIRepository</RootNamespace>
+    <RootNamespace>TI.Repository</RootNamespace>
     <AssemblyName>TI.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
