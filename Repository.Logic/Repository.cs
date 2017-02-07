@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using TIRepository.API;
 
 namespace TIRepository
 {
-
-
     public abstract class Repository<T> : IRepository<T>
     {
         #region Implementation of IDisposable
@@ -18,7 +17,7 @@ namespace TIRepository
             if (IsDisposed)
                 throw new ObjectDisposedException("The object has been disposed.");
 
-        
+
             IsDisposed = true;
         }
 
