@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\IDataRepository.cs" />
+    <Compile Include="API\IActiveRepository.cs" />
     <Compile Include="Repository.cs" />
     <Compile Include="RepositoryStorage.cs" />
     <Compile Include="API\IRepository.cs" />
