@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace TIRepository.UnitTests
+namespace TI.Repository.UnitTests
 {
     [TestFixture]
     public class RepositoryTests
