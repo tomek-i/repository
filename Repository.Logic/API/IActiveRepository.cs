@@ -1,4 +1,3 @@
-using DomainModel;
 
 namespace TIRepository.API
 {

@@ -46,12 +46,6 @@
     <Compile Include="API\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\WE\WE\DomainModel\DomainModel.csproj">
-      <Project>{CEEFBC61-4AB3-4380-80FA-A0373D0C5F1E}</Project>
-      <Name>DomainModel</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
