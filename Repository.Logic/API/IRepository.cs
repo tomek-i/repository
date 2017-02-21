@@ -22,6 +22,6 @@ namespace TI.Repository.API
 
         bool Contains(T item);
         IEnumerable<T> Where(Expression<Func<T, bool>> predicate);
-        IEnumerable<T> Where(Func<T, bool> predicate);
+
     }
 }
