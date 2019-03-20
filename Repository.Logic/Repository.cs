@@ -5,6 +5,10 @@ using TI.Repository.API;
 
 namespace TI.Repository
 {
+    /// <summary>
+    /// Abstract Repository
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public abstract class Repository<T> : IRepository<T>
     {
         #region Implementation of IDisposable
